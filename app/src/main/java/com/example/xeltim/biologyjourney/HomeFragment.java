@@ -20,14 +20,14 @@ import android.widget.ListView;
  * A placeholder fragment containing a simple view.
  */
 public class HomeFragment extends Fragment {
+    String[] s = {"https://i.imgur.com/tGbaZCY.jpg", "http://www.biology-questions-and-answers.com/images/Cell-Biology.jpg"};
 
-
-    Content[] content = {new Content(new String[]{"https://i.imgur.com/tGbaZCY.jpg", "http://www.biology-questions-and-answers.com/images/Cell-Biology.jpg"}, " Lesson 1 - The Cell"), new Content(new String[]{"https://i.imgur.com/tGbaZCY.jpg"}, " Lesson 2 - Chemistry of Cells"),
-            new Content(new String[]{"https://i.imgur.com/tGbaZCY.jpg"}, " Lesson 3 - Cell Type"), new Content(new String[]{"https://i.imgur.com/tGbaZCY.jpg"}, " Lesson 4 - Cell Membrane"),
-            new Content(new String[]{"http://www.biology-questions-and-answers.com/images/Cell-Biology.jpg"}, " Lesson 5 - Cell Wall"), new Content(new String[]{""}, " Lesson 6 - Plasmolysis Lab"),
-            new Content(new String[]{""}, " Lesson 7 - Cell Cytoplasm"), new Content(new String[]{""}, " Lesson 8 - Nucleus"),
-            new Content(new String[]{""}, "  Lesson 9 - Cell Cycle"), new Content(new String[]{""}, " Lesson 10 - Mitosis"),
-            new Content(new String[]{""}, " Lesson 11 - Meiosis"), new Content(new String[]{""}, " Lesson 12 - SOON")};
+    Content[] content = {new Content(new String[]{"https://i.imgur.com/kORZveH.png", "http://www.biology-questions-and-answers.com/images/Cell-Biology.jpg"}, " Lesson 1 - The Cell"), new Content(s, " Lesson 2 - Chemistry of Cells"),
+            new Content(s, " Lesson 3 - Cell Type"), new Content(s, " Lesson 4 - Cell Membrane"),
+            new Content(s, " Lesson 5 - Cell Wall"), new Content(s, " Lesson 6 - Plasmolysis Lab"),
+            new Content(s, " Lesson 7 - Cell Cytoplasm"), new Content(s, " Lesson 8 - Nucleus"),
+            new Content(s, "  Lesson 9 - Cell Cycle"), new Content(s, " Lesson 10 - Mitosis"),
+            new Content(s, " Lesson 11 - Meiosis"), new Content(s, " Lesson 12 - SOON")};
 
     public HomeFragment() {
     }
