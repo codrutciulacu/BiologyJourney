@@ -20,9 +20,9 @@ import android.widget.ListView;
  * A placeholder fragment containing a simple view.
  */
 public class HomeFragment extends Fragment {
-    String[] s = {"https://i.imgur.com/tGbaZCY.jpg", "http://www.biology-questions-and-answers.com/images/Cell-Biology.jpg"};
+    String[] s = {"http://samsung-wallpapers.com/uploads/allimg/130605/1-130605021247.jpg", "https://i.imgur.com/tGbaZCY.jpg"};
 
-    Content[] content = {new Content(new String[]{"https://i.imgur.com/kORZveH.png", "http://www.biology-questions-and-answers.com/images/Cell-Biology.jpg"}, " Lesson 1 - The Cell"), new Content(s, " Lesson 2 - Chemistry of Cells"),
+    Content[] content = {new Content(new String[]{"https://i.imgur.com/kORZveH.png", "https://i.imgur.com/tGbaZCY.jpg"}, " Lesson 1 - The Cell"), new Content(s, " Lesson 2 - Chemistry of Cells"),
             new Content(s, " Lesson 3 - Cell Type"), new Content(s, " Lesson 4 - Cell Membrane"),
             new Content(s, " Lesson 5 - Cell Wall"), new Content(s, " Lesson 6 - Plasmolysis Lab"),
             new Content(s, " Lesson 7 - Cell Cytoplasm"), new Content(s, " Lesson 8 - Nucleus"),
