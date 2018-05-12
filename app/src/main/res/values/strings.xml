@@ -6,7 +6,7 @@
     <string name="title_activity_lesson">Lesson</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_settings">Settings</string>
-
+    <string name="notification_channel">Channnel1</string>
     <!-- Strings related to Settings -->
 
     <!-- Example General settings -->

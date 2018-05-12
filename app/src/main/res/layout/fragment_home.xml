@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.xeltim.biologyjourney.HomeFragment"
     tools:showIn="@layout/activity_home">
-    <ListView android:layout_height="match_parent"
-        android:layout_width="match_parent"
-        android:id="@+id/listview_forecast"> </ListView>
+    <ListView android:id="@+id/listview_forecast"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"> </ListView>
 </android.support.constraint.ConstraintLayout>
